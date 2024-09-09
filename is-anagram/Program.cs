@@ -17,9 +17,11 @@ public class Solution
 
         An anagram is a string that contains the exact same characters as another string, but the order of the characters can be different.
     */
+    
     public bool IsAnagram(string s, string t)
     {
         if (s.Length != t.Length) return false;
+
         Dictionary<char, int> dict = [];
         foreach (char c in s)
         {
@@ -33,14 +35,18 @@ public class Solution
                 dict.Add(c, 1);
             }
         }
+
+        // solve
+
         foreach (var c in t)
         {
-            bool check = dict.ContainsKey(c);
+            bool check = dict.ContainsKey(c);   // contain key dict[key]-1 dict[key] == 0 remove lun
             if (!check) return false;
-            dict[c]--;
-            if (dict[c] == 0) dict.Remove(c);
+            dict[c] -= 1;
+            if (dict[c] == 0) dict.Remove(c); // dict.length = 0
         }
-        return dict.Count == 0;
+
+        return dict.Count == 0; //true | false
     }
 
     public static Solution sol = new Solution();
@@ -68,7 +74,7 @@ public class Solution
     {
         var s = "racecar";
         var t = "carrace";
-        
+
         var func = sol.IsAnagram;
         var methodInfo = func.GetMethodInfo();
 

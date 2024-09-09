@@ -1,14 +1,37 @@
-# Created by https://www.toptal.com/developers/gitignore/api/dotnetcore
-# Edit at https://www.toptal.com/developers/gitignore?templates=dotnetcore
+# Ignore Visual Studio folder
+.vs/
 
-### DotnetCore ###
-# .NET Core build folders
+# Ignore build results
 bin/
 obj/
 
-# Common node modules locations
-/node_modules
-/wwwroot/node_modules
+# Ignore all release and debug folders under any project
+**/bin/
+**/obj/
 
-# End of https://www.toptal.com/developers/gitignore/api/dotnetcore
-/.vs/*
+# Ignore ref and refint folders inside obj
+**/obj/**/ref/
+**/obj/**/refint/
+
+# Ignore all user-specific files
+*.user
+*.rsuser
+*.suo
+
+# Ignore project-level cache
+.vscode/
+.vscode/*
+
+.localhistory/
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+
+# End of https://www.toptal.com/developers/gitignore/api/vs
+/*/.vs/

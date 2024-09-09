@@ -2,8 +2,8 @@
 {
     public bool hasDuplicate(int[] nums)
     {
-        Dictionary<int, int> count = new Dictionary<int, int>();
-
+        Dictionary<int, int> count = new();
+        
         foreach (int num in nums)
         {
             var check = count.TryAdd(num, 1);

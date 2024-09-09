@@ -12,3 +12,4 @@ E:\outside-of-fpt\asp.net\c#-neetcode-blind-75\is-anagram\obj\Debug\net8.0\refin
 E:\outside-of-fpt\asp.net\c#-neetcode-blind-75\is-anagram\obj\Debug\net8.0\is-anagram.pdb
 E:\outside-of-fpt\asp.net\c#-neetcode-blind-75\is-anagram\obj\Debug\net8.0\is-anagram.genruntimeconfig.cache
 E:\outside-of-fpt\asp.net\c#-neetcode-blind-75\is-anagram\obj\Debug\net8.0\ref\is-anagram.dll
+E:\outside-of-fpt\asp.net\c#-neetcode-blind-75\is-anagram\obj\Debug\net8.0\is-anagram.sourcelink.json
