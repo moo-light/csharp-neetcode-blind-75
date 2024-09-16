@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "longest-repeating-substring
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minimum-window-with-characters", "minimum-window-with-characters\minimum-window-with-characters.csproj", "{614F5B7D-AA5F-4EA2-B31C-DD673B0D2D6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reorder-linked-list", "reorder-linked-list\reorder-linked-list.csproj", "{911A58ED-6749-42C4-9DC7-66F4363E02EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reverse-a-linked-list", "reverse-a-linked-list\reverse-a-linked-list.csproj", "{690249FC-FA21-4D7E-B825-D8D5E0F18FD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{614F5B7D-AA5F-4EA2-B31C-DD673B0D2D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{614F5B7D-AA5F-4EA2-B31C-DD673B0D2D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{614F5B7D-AA5F-4EA2-B31C-DD673B0D2D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911A58ED-6749-42C4-9DC7-66F4363E02EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911A58ED-6749-42C4-9DC7-66F4363E02EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911A58ED-6749-42C4-9DC7-66F4363E02EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911A58ED-6749-42C4-9DC7-66F4363E02EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690249FC-FA21-4D7E-B825-D8D5E0F18FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690249FC-FA21-4D7E-B825-D8D5E0F18FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{690249FC-FA21-4D7E-B825-D8D5E0F18FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690249FC-FA21-4D7E-B825-D8D5E0F18FD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
