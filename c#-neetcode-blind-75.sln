@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reorder-linked-list", "reor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reverse-a-linked-list", "reverse-a-linked-list\reverse-a-linked-list.csproj", "{690249FC-FA21-4D7E-B825-D8D5E0F18FD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "find-minimum-in-rotated-sorted-array", "find-minimum-in-rotated-sorted-array\find-minimum-in-rotated-sorted-array.csproj", "{34639F98-6C62-4A87-8DEE-F73147A1D721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "find-target-in-rotated-sorted-array", "find-target-in-rotated-sorted-array\find-target-in-rotated-sorted-array.csproj", "{5014F91B-10C7-43E1-A421-AABC3F57F9C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{690249FC-FA21-4D7E-B825-D8D5E0F18FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{690249FC-FA21-4D7E-B825-D8D5E0F18FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{690249FC-FA21-4D7E-B825-D8D5E0F18FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34639F98-6C62-4A87-8DEE-F73147A1D721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34639F98-6C62-4A87-8DEE-F73147A1D721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34639F98-6C62-4A87-8DEE-F73147A1D721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34639F98-6C62-4A87-8DEE-F73147A1D721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5014F91B-10C7-43E1-A421-AABC3F57F9C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5014F91B-10C7-43E1-A421-AABC3F57F9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5014F91B-10C7-43E1-A421-AABC3F57F9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5014F91B-10C7-43E1-A421-AABC3F57F9C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

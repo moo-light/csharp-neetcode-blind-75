@@ -34,7 +34,7 @@
     {
         var so = new Solution();
         so.MinWindow("OUZODYXAZ", "XYZ");
-        so.MinWindow("ASDSADSADSDSADASDSADASDASDDFASCAX", "FACXDAA");
+        so.MinWindow("ASDSADSADSDSADASDSADASDASDDFASCAX", " ");
         so.MinWindow("XYZ", "XYZ");
         so.MinWindow("X", "XY");
     }
