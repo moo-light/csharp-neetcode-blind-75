@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "find-minimum-in-rotated-sor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "find-target-in-rotated-sorted-array", "find-target-in-rotated-sorted-array\find-target-in-rotated-sorted-array.csproj", "{5014F91B-10C7-43E1-A421-AABC3F57F9C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "merge-two-sorted-linked-lists", "merge-two-sorted-linked-lists\merge-two-sorted-linked-lists.csproj", "{FC2AF171-555B-41C4-BF25-8AF074FE8142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "remove-node-from-end-of-linked-list", "remove-node-from-end-of-linked-list\remove-node-from-end-of-linked-list.csproj", "{2ECC16FE-8AE6-42A7-8EA9-6BE2ED456865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{5014F91B-10C7-43E1-A421-AABC3F57F9C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5014F91B-10C7-43E1-A421-AABC3F57F9C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5014F91B-10C7-43E1-A421-AABC3F57F9C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2AF171-555B-41C4-BF25-8AF074FE8142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2AF171-555B-41C4-BF25-8AF074FE8142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2AF171-555B-41C4-BF25-8AF074FE8142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2AF171-555B-41C4-BF25-8AF074FE8142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ECC16FE-8AE6-42A7-8EA9-6BE2ED456865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECC16FE-8AE6-42A7-8EA9-6BE2ED456865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECC16FE-8AE6-42A7-8EA9-6BE2ED456865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECC16FE-8AE6-42A7-8EA9-6BE2ED456865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

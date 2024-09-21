@@ -6,4 +6,6 @@ dotnet sln add %p%
 cd %p%
 dotnet new sln
 dotnet sln add %p%.csproj
-%p%.sln
+start %p%.sln
+
+exit
