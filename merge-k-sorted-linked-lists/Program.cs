@@ -3,7 +3,7 @@
 
     public ListNode MergeKLists(ListNode[] lists)
     {
-        return MergeKLists(0, new ListNode(), lists.ToList()).next;
+        return MergeKLists(0, null, lists.ToList());
     }
     public ListNode MergeKLists(int index, ListNode resultNode, List<ListNode> lists)
     {
@@ -13,12 +13,12 @@
 
         ListNode curr = resultNode;
         ListNode newNode = lists[index];
-        //if (index == 0)
-        //{
-        //    resultNode = newNode;
-
-        //}
-        //else
+        if (index == 0)
+        {
+            resultNode = new ListNode(0, newNode);// create a tempnode 0 to remove later
+            return MergeKLists(index + 1, resultNode, lists).next;// remove the temp node
+        }
+        else
         {
             while (curr != null)
             {
@@ -39,8 +39,8 @@
                     temp = temp.next;
                 }
             }
+            MergeKLists(index + 1, resultNode, lists);
         }
-        MergeKLists(index + 1, resultNode, lists);
         return resultNode;
     }
     public static ListNode[] CreateListNodeArray(int[][] array)

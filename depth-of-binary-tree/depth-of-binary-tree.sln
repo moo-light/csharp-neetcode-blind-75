@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "depth-of-binary-tree", "depth-of-binary-tree.csproj", "{A84C45B1-495E-4927-B15E-8AF91F703EFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils", "..\Utils\Utils.csproj", "{91B9B4FC-FA3C-4864-AA2C-D5ACB0516277}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A84C45B1-495E-4927-B15E-8AF91F703EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84C45B1-495E-4927-B15E-8AF91F703EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84C45B1-495E-4927-B15E-8AF91F703EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84C45B1-495E-4927-B15E-8AF91F703EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B9B4FC-FA3C-4864-AA2C-D5ACB0516277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B9B4FC-FA3C-4864-AA2C-D5ACB0516277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B9B4FC-FA3C-4864-AA2C-D5ACB0516277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B9B4FC-FA3C-4864-AA2C-D5ACB0516277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA6E9B70-FF17-44ED-8548-4537A681D0DE}
+	EndGlobalSection
+EndGlobal
