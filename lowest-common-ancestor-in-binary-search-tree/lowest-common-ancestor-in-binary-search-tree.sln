@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lowest-common-ancestor-in-binary-search-tree", "lowest-common-ancestor-in-binary-search-tree.csproj", "{3520C8C8-01FF-4FA9-AA6A-95B1705F522F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "..\utils\Utils.csproj", "{3E9D7B52-262C-4530-9ACE-455814B5158D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3520C8C8-01FF-4FA9-AA6A-95B1705F522F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3520C8C8-01FF-4FA9-AA6A-95B1705F522F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3520C8C8-01FF-4FA9-AA6A-95B1705F522F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3520C8C8-01FF-4FA9-AA6A-95B1705F522F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9D7B52-262C-4530-9ACE-455814B5158D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9D7B52-262C-4530-9ACE-455814B5158D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9D7B52-262C-4530-9ACE-455814B5158D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9D7B52-262C-4530-9ACE-455814B5158D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
