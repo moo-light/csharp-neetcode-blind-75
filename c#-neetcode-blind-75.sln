@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "same-binary-tree", "same-bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "subtree-of-a-binary-tree", "subtree-of-a-binary-tree\subtree-of-a-binary-tree.csproj", "{71EC2BD8-C4B1-424B-923F-874C5BF0220D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lowest-common-ancestor-in-binary-search-tree", "lowest-common-ancestor-in-binary-search-tree\lowest-common-ancestor-in-binary-search-tree.csproj", "{78B39ADF-F904-47E5-ACC7-DF803C031423}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{71EC2BD8-C4B1-424B-923F-874C5BF0220D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71EC2BD8-C4B1-424B-923F-874C5BF0220D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71EC2BD8-C4B1-424B-923F-874C5BF0220D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B39ADF-F904-47E5-ACC7-DF803C031423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B39ADF-F904-47E5-ACC7-DF803C031423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B39ADF-F904-47E5-ACC7-DF803C031423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B39ADF-F904-47E5-ACC7-DF803C031423}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
