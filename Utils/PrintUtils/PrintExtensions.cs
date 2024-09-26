@@ -1,17 +1,20 @@
-﻿public static class PrintExtensions
+﻿using System.Collections;
+
+public static class PrintExtensions
 {
-    public static void Print(this object obj) 
+    public static void Print(this object obj,bool wl = true) 
     {
         if (obj is null) Console.WriteLine(obj);
-        if (obj is IEnumerable<object>)
+        if (obj is (IEnumerable or Array) )
         {
-            foreach (object item in obj as IEnumerable<object>)
+            foreach (object item in (obj as IEnumerable))
             {
-                Print(item);
+                Print(item,false);
             }
             Console.WriteLine();
             return;
         }
-        Console.WriteLine(obj);
+        Console.Write(obj+" ");
+        if (wl) Console.WriteLine();
     }
 }

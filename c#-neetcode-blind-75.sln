@@ -61,7 +61,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "same-binary-tree", "same-bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "subtree-of-a-binary-tree", "subtree-of-a-binary-tree\subtree-of-a-binary-tree.csproj", "{71EC2BD8-C4B1-424B-923F-874C5BF0220D}"
 EndProject
+<<<<<<< Updated upstream
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lowest-common-ancestor-in-binary-search-tree", "lowest-common-ancestor-in-binary-search-tree\lowest-common-ancestor-in-binary-search-tree.csproj", "{78B39ADF-F904-47E5-ACC7-DF803C031423}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "level-order-traversal-of-binary-tree", "level-order-traversal-of-binary-tree\level-order-traversal-of-binary-tree.csproj", "{B1D98DA9-CB8B-4586-8B50-553CCFEB5D8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "valid-binary-search-tree", "valid-binary-search-tree\valid-binary-search-tree.csproj", "{49555BD6-E835-4E0D-82D0-55AE0C8340B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kth-smallest-integer-in-bst", "kth-smallest-integer-in-bst\kth-smallest-integer-in-bst.csproj", "{E81C732B-CF35-47FC-B319-EAA291042002}"
+>>>>>>> Stashed changes
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -185,10 +193,25 @@ Global
 		{71EC2BD8-C4B1-424B-923F-874C5BF0220D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71EC2BD8-C4B1-424B-923F-874C5BF0220D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71EC2BD8-C4B1-424B-923F-874C5BF0220D}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< Updated upstream
 		{78B39ADF-F904-47E5-ACC7-DF803C031423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{78B39ADF-F904-47E5-ACC7-DF803C031423}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78B39ADF-F904-47E5-ACC7-DF803C031423}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78B39ADF-F904-47E5-ACC7-DF803C031423}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{B1D98DA9-CB8B-4586-8B50-553CCFEB5D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D98DA9-CB8B-4586-8B50-553CCFEB5D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D98DA9-CB8B-4586-8B50-553CCFEB5D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D98DA9-CB8B-4586-8B50-553CCFEB5D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49555BD6-E835-4E0D-82D0-55AE0C8340B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49555BD6-E835-4E0D-82D0-55AE0C8340B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49555BD6-E835-4E0D-82D0-55AE0C8340B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49555BD6-E835-4E0D-82D0-55AE0C8340B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E81C732B-CF35-47FC-B319-EAA291042002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81C732B-CF35-47FC-B319-EAA291042002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81C732B-CF35-47FC-B319-EAA291042002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81C732B-CF35-47FC-B319-EAA291042002}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
