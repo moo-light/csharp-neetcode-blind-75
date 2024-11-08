@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = contains_duplicate
-build_property.ProjectDir = E:\outside-of-fpt\asp.net\c#-neetcode-blind-75\contains-duplicate\
+build_property.ProjectDir = E:\outside-of-fpt\ASP.NET\csharp-neetcode-blind-75\contains-duplicate\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

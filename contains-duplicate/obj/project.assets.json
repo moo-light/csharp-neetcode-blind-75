@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\outside-of-fpt\\asp.net\\c#-neetcode-blind-75\\contains-duplicate\\contains-duplicate.csproj",
+      "projectUniqueName": "E:\\outside-of-fpt\\ASP.NET\\csharp-neetcode-blind-75\\contains-duplicate\\contains-duplicate.csproj",
       "projectName": "contains-duplicate",
-      "projectPath": "E:\\outside-of-fpt\\asp.net\\c#-neetcode-blind-75\\contains-duplicate\\contains-duplicate.csproj",
+      "projectPath": "E:\\outside-of-fpt\\ASP.NET\\csharp-neetcode-blind-75\\contains-duplicate\\contains-duplicate.csproj",
       "packagesPath": "C:\\Users\\Thanh Binh\\.nuget\\packages\\",
-      "outputPath": "E:\\outside-of-fpt\\asp.net\\c#-neetcode-blind-75\\contains-duplicate\\obj\\",
+      "outputPath": "E:\\outside-of-fpt\\ASP.NET\\csharp-neetcode-blind-75\\contains-duplicate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

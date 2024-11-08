@@ -7,7 +7,7 @@ cd %p%
 dotnet new sln
 dotnet sln add %p%.csproj
 dotnet sln add ../utils
-dotnet add %p%.csproj reference ../utils
+dotnet add %p%.csproj reference ../Utils
 start %p%.sln
 
 exit
