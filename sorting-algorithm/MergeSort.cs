@@ -28,8 +28,10 @@ namespace sorting_algorithm
             while (i <= mid && j <= r)
             {
                 int next;
-                if (arr[i] < arr[j]) next = arr[i++];
-                else next = arr[j++];
+                if (arr[i] < arr[j]) 
+                    next = arr[i++];
+                else 
+                    next = arr[j++];
                 temp[k++] = next; 
             }
             // take the remainder
